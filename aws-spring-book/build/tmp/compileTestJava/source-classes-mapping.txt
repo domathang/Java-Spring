@@ -1,6 +1,8 @@
 com/ouu99/book/springboot/web/dto/HelloResponseDtoTest.java
  com.ouu99.book.springboot.web.dto.HelloResponseDtoTest
-com/ouu99/book/springboot/web/domain/posts/PostsRepositoryTest.java
- com.ouu99.book.springboot.web.domain.posts.PostsRepositoryTest
 com/ouu99/book/springboot/web/HelloControllerTest.java
  com.ouu99.book.springboot.web.HelloControllerTest
+com/ouu99/book/springboot/web/domain/posts/PostsRepositoryTest.java
+ com.ouu99.book.springboot.web.domain.posts.PostsRepositoryTest
+com/ouu99/book/springboot/web/PostsApiControllerTest.java
+ com.ouu99.book.springboot.web.PostsApiControllerTest
