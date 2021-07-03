@@ -19,7 +19,6 @@ apply plugin: 'io.spring.dependency-management'
 
 group 'com.ouu99.book'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -44,6 +43,8 @@ dependencies {
     compile('org.springframework.session:spring-session-jdbc')
 
     testCompile("org.springframework.security:spring-security-test")
+
+    compile("org.mariadb.jdbc:mariadb-java-client")
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
