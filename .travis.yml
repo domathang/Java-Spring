@@ -18,9 +18,9 @@ script:
   - "./gradlew clean build"
 
 before_deploy:
-  - zip -r Java-Spring/aws-spring-book *
+  - zip -r aws-spring-book ./aws-spring-book
   - mkdir -p deploy
-  - mv Java-Spring/aws-spring-book.zip deploy/aws-spring-book.zip
+  - mv aws-spring-book.zip deploy/aws-spring-book.zip
 
 deploy:
   - provider: s3
