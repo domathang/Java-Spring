@@ -13,6 +13,7 @@ cache:
     - '$Home/.gradle'
 
 script:
+  - "chmod +x ./gradlew"
   - "cd aws-spring-book"
   - "./gradlew clean build"
 
